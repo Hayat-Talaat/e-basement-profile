@@ -23,6 +23,9 @@ import {DialogModule} from 'primeng/dialog';
 import { AddItemComponent } from './add-item/add-item.component';
 import { ProductsComponent } from './products/products.component';
 import { ProfileComponent } from "./Profile/profile.component";
+import { AppMyproduct } from "./Profile/app-my-product/app-my-product.component";
+// import { AppNotification } from "./Profile/app-notification/app-notification.component";
+// import { AppControlPanel } from "./Profile/app-control-panel/app-control-panel.component";
 @NgModule({
   declarations: [
     AppComponent,
@@ -34,7 +37,10 @@ import { ProfileComponent } from "./Profile/profile.component";
     HomePageComponent,
     AddItemComponent,
     ProductsComponent,
-    ProfileComponent
+    ProfileComponent,
+    AppMyproduct,
+    // AppNotification,
+    // AppControlPanel
   ],
   exports: [
     LoginHeaderComponent

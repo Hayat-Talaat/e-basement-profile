@@ -1,10 +1,10 @@
 .tab-container {
-	background: #344152;
+	background: #fff;
 	padding: 0;
-	border: solid 1px #444;
-	height: 440px;
-	overflow: hidden;
-	width: 100%;
+	/* border: solid 1px #444;
+	overflow: hidden; */
+    width: 100%;
+    height: auto;
 }
 .nav-tabs.nav-tabs-left {
   float: left;
@@ -17,17 +17,28 @@
 }
 .nav-tabs.nav-tabs-left {
   border-bottom: 0;
-  max-width: 33%;
+  /* max-width: 33%; */
+  background: #ddd;
+  width: 100%;
+  border-radius: 5px;
+    margin-right: 30px;
+    padding: 20px 0;
+    background: #4d4d4d;
+    color: #fff;
+    margin-bottom: 30px;
 }
 .nav-tabs.nav-tabs-left li {
   float: none;
   margin: 0;
-	text-align: left;
+    text-align: left;
+    
 }
 .nav-tabs.nav-tabs-left li a,
 .nav-tabs.nav-tabs-right li a {
   background-color: #344152;
+  background-color: #4d4d4d;
   color: #fff;
+  
 }
 .nav-tabs.nav-tabs-left li a:hover,
 .nav-tabs.nav-tabs-right li a:hover {
@@ -61,8 +72,8 @@
 }
 .tab-content {
 	background: #fff;
-	height: 440px;
-	overflow-y: scroll;
+	/* height: 440px;
+	overflow-y: scroll; */
 }
 .tab-content.side-tabs .tab-pane {
   display: none;
@@ -101,5 +112,19 @@ col.did {
 }
 .nav-tabs>li>a,.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
 	border: none;
+}
+
+
+
+/* Profile Head */
+.page-title {
+    font-size: 75px;
+    margin: 30px 0;
+    font-family: 'Roboto', arial, helvetica, sans-serif;
+    margin-top: 0;
+    font-weight: 300;
+    color: #565656;
+    line-height: 1.3em;
+    font-weight: 500 !important
 }
 

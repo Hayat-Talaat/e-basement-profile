@@ -16,9 +16,23 @@
                                 </a>
                             </li>
                             <li role="presentation">
-                                <a href="#bartering" data-toggle="tab" role="tab">
-                                    Bartering
-                                </a>
+                                <ul>Bartering
+                                    <li>
+                                        <a href="#bartering-accepted" data-toggle="tab" role="tab">
+                                            Accepted
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#bartering-refused" data-toggle="tab" role="tab">
+                                            refused
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#bartering-in-progress" data-toggle="tab" role="tab">
+                                            In Progress
+                                        </a>
+                                    </li>
+                                </ul>
                             </li>
                             <li role="presentation">
                                 <a href="#notifications" data-toggle="tab" role="tab">
@@ -49,9 +63,19 @@
                                 <app-my-product></app-my-product>
                             </div>
 
-                            <!-- Bartering -->
-                            <div class="tab-pane fade" id="bartering" role="tabpanel">
-                                <app-bartering></app-bartering>
+                            <!-- Bartering Accepted -->
+                            <div class="tab-pane fade" id="bartering-accepted" role="tabpanel">
+                                <app-bartering-accpted></app-bartering-accpted>
+                            </div>
+
+                            <!-- Bartering Refused -->
+                            <div class="tab-pane fade" id="bartering-refused" role="tabpanel">
+                                <app-bartering-refused></app-bartering-refused>
+                            </div>
+
+                            <!-- Bartering In Progress -->
+                            <div class="tab-pane fade" id="bartering-in-progress" role="tabpanel">
+                                <app-bartering-in-progress></app-bartering-in-progress>
                             </div>
 
                             <!-- Notifications -->
@@ -61,12 +85,12 @@
 
                             <!-- Control Panel -->
                             <div class="tab-pane fade" id="control-panel" role="tabpanel">
-                                    <app-control-panel></app-control-panel>
+                                <app-control-panel></app-control-panel>
                             </div>
 
                             <!-- Settings -->
                             <div class="tab-pane fade" id="settings" role="tabpanel">
-                                    <app-sttings></app-sttings>
+                                <app-sttings></app-sttings>
                             </div>
 
                         </div>

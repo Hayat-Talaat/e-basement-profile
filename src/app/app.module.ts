@@ -22,6 +22,7 @@ import {FileUploadModule} from 'primeng/fileupload';
 import {DialogModule} from 'primeng/dialog';
 import { AddItemComponent } from './add-item/add-item.component';
 import { ProductsComponent } from './products/products.component';
+import { ProfileComponent } from "./Profile/profile.component";
 @NgModule({
   declarations: [
     AppComponent,
@@ -33,6 +34,7 @@ import { ProductsComponent } from './products/products.component';
     HomePageComponent,
     AddItemComponent,
     ProductsComponent,
+    ProfileComponent
   ],
   exports: [
     LoginHeaderComponent

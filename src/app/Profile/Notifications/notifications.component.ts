@@ -3,10 +3,10 @@ import 'src/assets/js/script.js'
 
 @Component({
   selector: 'app-notification',
-  templateUrl: './app-notification/app-my-product.component.html',
-  styleUrls: ['./app-notification/app-my-product.component.css']
+  templateUrl: './notifications.component.html',
+  styleUrls: ['./notifications.component.css']
 })
-export class AppNotification implements OnInit {
+export class AppNotifications implements OnInit {
 
   constructor() {
     

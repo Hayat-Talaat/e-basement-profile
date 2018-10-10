@@ -22,10 +22,16 @@ import {FileUploadModule} from 'primeng/fileupload';
 import {DialogModule} from 'primeng/dialog';
 import { AddItemComponent } from './add-item/add-item.component';
 import { ProductsComponent } from './products/products.component';
+
+/* Profile */
 import { ProfileComponent } from "./Profile/profile.component";
 import { AppMyproduct } from "./Profile/app-my-product/app-my-product.component";
-// import { AppNotification } from "./Profile/app-notification/app-notification.component";
-// import { AppControlPanel } from "./Profile/app-control-panel/app-control-panel.component";
+import { AppBartering } from "./Profile/Bartering/bartering.component";
+import { AppControlPanel } from "./Profile/ControlPanel/ControlPanel.component";
+import { AppNotifications } from "./Profile/Notifications/notifications.component";
+import { AppSettings } from "./Profile/Settings/settings.component";
+
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -39,8 +45,11 @@ import { AppMyproduct } from "./Profile/app-my-product/app-my-product.component"
     ProductsComponent,
     ProfileComponent,
     AppMyproduct,
-    // AppNotification,
-    // AppControlPanel
+    AppBartering,
+    AppControlPanel,
+    AppNotifications,
+    AppSettings
+      
   ],
   exports: [
     LoginHeaderComponent
@@ -60,6 +69,7 @@ import { AppMyproduct } from "./Profile/app-my-product/app-my-product.component"
     CalendarModule,
     FileUploadModule,
     DialogModule
+    
   ],
   providers: [],
   bootstrap: [AppComponent]

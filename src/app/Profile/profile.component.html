@@ -1,4 +1,4 @@
-<div class="container-fluid">
+<div class="container">
     <div class="row">
         <div class="col-sm-12">
             <h2 class="page-title">My Profile</h2>
@@ -7,34 +7,84 @@
                 <div class="row">
 
                     <div class="col-xs-3">
+
                         <!-- Nav Tabs -->
                         <ul class="nav nav-tabs nav-tabs-left nav-centered" role="tablist">
 
+                            <li>
+                                <div class="user-profile-sidebar text-center">
+                                    <h4>Hayat Talaat</h4>
+                                    <p>Member Since May 2018</p>
+                                </div>
+                            </li>
+
+                            <hr>
                             <li role="presentation" class="active">
                                 <a href="#my-products" data-toggle="tab" role="tab">
+                                    <i class="fas fa-box-open"></i>
                                     My Products
                                 </a>
                             </li>
+
+                            <hr>
                             <li role="presentation">
-                                <a href="#bartering" data-toggle="tab" role="tab">
+                                <ul class="nav-centered" role="tablist">
                                     Bartering
-                                </a>
+                                    <li role="presentation">
+                                        <a href="#bartering-accepted" data-toggle="tab" role="tab">
+                                            <i class="fas fa-check-circle"></i>
+                                            Accepted
+                                        </a>
+                                    </li>
+                                    <li role="presentation">
+                                        <a href="#bartering-refused" data-toggle="tab" role="tab">
+                                            <i class="fas fa-exclamation-triangle"></i>
+                                            refused
+                                        </a>
+                                    </li>
+                                    <li role="presentation">
+                                        <a href="#bartering-in-progress" data-toggle="tab" role="tab">
+                                            <i class="fas fa-spinner"></i>
+                                            In Progress
+                                        </a>
+                                    </li>
+                                </ul>
                             </li>
+
+                            <hr>
                             <li role="presentation">
                                 <a href="#notifications" data-toggle="tab" role="tab">
+                                    <i class="fas fa-bell"></i>
                                     Notifications
                                 </a>
                             </li>
+
+                            <hr>
                             <li role="presentation">
                                 <a href="#control-panel" data-toggle="tab" role="tab">
+                                    <i class="fas fa-cog"></i>
                                     Control Panel
                                 </a>
                             </li>
+
+                            <hr>
                             <li role="presentation">
                                 <a href="#settings" data-toggle="tab" role="tab">
+                                    <i class="fas fa-cog"></i>
                                     Settings
                                 </a>
                             </li>
+                            <!-- <li>
+                                <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                                    About me
+                                    <b class="caret"></b>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a data-toggle="tab" href="#education-tab">Education</a></li>
+                                    <li><a data-toggle="tab" href="#career-tab">Career</a></li>
+                                    <li><a data-toggle="tab" href="#contact-tab">Contact</a></li>
+                                </ul>
+                            </li> -->
 
                         </ul>
                     </div>
@@ -49,9 +99,19 @@
                                 <app-my-product></app-my-product>
                             </div>
 
-                            <!-- Bartering -->
-                            <div class="tab-pane fade" id="bartering" role="tabpanel">
-                                <app-bartering></app-bartering>
+                            <!-- Bartering Accepted -->
+                            <div class="tab-pane fade" id="bartering-accepted" role="tabpanel">
+                                <app-bartering-accpted></app-bartering-accpted>
+                            </div>
+
+                            <!-- Bartering Refused -->
+                            <div class="tab-pane fade" id="bartering-refused" role="tabpanel">
+                                <app-bartering-refused></app-bartering-refused>
+                            </div>
+
+                            <!-- Bartering In Progress -->
+                            <div class="tab-pane fade" id="bartering-in-progress" role="tabpanel">
+                                <app-bartering-in-progress></app-bartering-in-progress>
                             </div>
 
                             <!-- Notifications -->
@@ -61,12 +121,12 @@
 
                             <!-- Control Panel -->
                             <div class="tab-pane fade" id="control-panel" role="tabpanel">
-                                    <app-control-panel></app-control-panel>
+                                <app-control-panel></app-control-panel>
                             </div>
 
                             <!-- Settings -->
                             <div class="tab-pane fade" id="settings" role="tabpanel">
-                                    <app-sttings></app-sttings>
+                                <app-sttings></app-sttings>
                             </div>
 
                         </div>

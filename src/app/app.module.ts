@@ -26,7 +26,11 @@ import { ProductsComponent } from './products/products.component';
 /* Profile */
 import { ProfileComponent } from "./Profile/profile.component";
 import { AppMyproduct } from "./Profile/app-my-product/app-my-product.component";
-import { AppBartering } from "./Profile/Bartering/bartering.component";
+
+import { AppBarteringAccepted } from "./Profile/Bartering-Accepted/bartering-accepted.component";
+import { AppBarteringRefused } from "./Profile/Bartering-Refused/bartering-refused.component";
+import { AppBarteringInProgress } from "./Profile/Bartering-In-Progress/bartering-in-progress.component";
+
 import { AppControlPanel } from "./Profile/ControlPanel/ControlPanel.component";
 import { AppNotifications } from "./Profile/Notifications/notifications.component";
 import { AppSettings } from "./Profile/Settings/settings.component";
@@ -45,7 +49,9 @@ import { AppSettings } from "./Profile/Settings/settings.component";
     ProductsComponent,
     ProfileComponent,
     AppMyproduct,
-    AppBartering,
+    AppBarteringAccepted,
+    AppBarteringRefused,
+    AppBarteringInProgress,
     AppControlPanel,
     AppNotifications,
     AppSettings

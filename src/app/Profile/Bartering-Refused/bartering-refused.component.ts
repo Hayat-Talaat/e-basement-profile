@@ -2,10 +2,10 @@ import { Component, OnInit } from '@angular/core';
 import 'src/assets/js/script.js'
 
 @Component({
-  selector: 'app-bartering',
-  templateUrl: './bartering.component.html'
+  selector: 'app-bartering-refused',
+  templateUrl: './bartering-refused.component.html'
 })
-export class AppBartering implements OnInit {
+export class AppBarteringRefused implements OnInit {
 
   constructor() {
     

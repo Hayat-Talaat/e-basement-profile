@@ -1,0 +1,17 @@
+import { Component, OnInit } from '@angular/core';
+import 'src/assets/js/script.js'
+
+@Component({
+  selector: 'app-credit',
+  templateUrl: './Credit.component.html'
+})
+export class AppCredit implements OnInit {
+
+  constructor() {
+    
+   }
+
+  ngOnInit() {
+  }
+
+}

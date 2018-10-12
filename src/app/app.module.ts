@@ -31,7 +31,7 @@ import { AppBarteringAccepted } from "./Profile/Bartering-Accepted/bartering-acc
 import { AppBarteringRefused } from "./Profile/Bartering-Refused/bartering-refused.component";
 import { AppBarteringInProgress } from "./Profile/Bartering-In-Progress/bartering-in-progress.component";
 
-import { AppControlPanel } from "./Profile/ControlPanel/ControlPanel.component";
+import { AppCredit } from "./Profile/Credit/Credit.component";
 import { AppNotifications } from "./Profile/Notifications/notifications.component";
 import { AppSettings } from "./Profile/Settings/settings.component";
 
@@ -52,7 +52,7 @@ import { AppSettings } from "./Profile/Settings/settings.component";
     AppBarteringAccepted,
     AppBarteringRefused,
     AppBarteringInProgress,
-    AppControlPanel,
+    AppCredit,
     AppNotifications,
     AppSettings
       

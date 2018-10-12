@@ -1,6 +1,10 @@
 * {
   transition: all 0.2s ease;
 }
+.container-fluid {
+  padding-right: 20px;
+  padding-left: 20px;
+}
 
 .tab-container {
   background: #fff;
@@ -134,7 +138,7 @@ hr {
 
 /* Profile Head */
 .page-title {
-  font-size: 60px;
+  font-size: 50px;
   margin: 30px 0;
   font-family: "Roboto", arial, helvetica, sans-serif;
   margin-top: 0;
@@ -221,4 +225,30 @@ hr {
 }
 .bartering i {
   font-size: 10px
+}
+
+/* Media Query */
+/* Large desktops and laptops */
+@media (min-width: 1200px) {
+
+}
+
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+
 }

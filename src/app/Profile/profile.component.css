@@ -66,6 +66,16 @@
   background: #404040;
   transition: 0.3s;
 }
+li.active {
+  background: #404040;
+}
+
+li:hover {
+  background: #404040
+}
+li.user-profile:hover {
+  background: #4d4d4d
+}
 .nav-tabs.nav-tabs-left li.active a:hover,
 .nav-tabs.nav-tabs-right li.active a:hover,
 .nav-tabs.nav-tabs-left li.active .glyphicon:hover,
@@ -245,7 +255,31 @@ hr {
 
 /* Landscape phones and portrait tablets */
 @media (max-width: 767px) {
-
+  li.user-profile {
+    float: none;
+  }
+  .nav-tabs.nav-tabs-left li {
+    float: left;
+    text-align: center;
+    padding: 10px 0 !important
+  }
+  .nav-tabs.nav-tabs-left li a{
+    font-size: 10px;
+    text-align: center;
+    padding: 0 0;
+  }
+  i {
+    /* display: block !important; */
+    /* text-align: center !important */
+    margin-bottom: 10px;
+  }
+  .bartering a {
+    padding: 0 0 !important
+  }
+  li.user-profile {
+    margin-bottom: 20px !important;
+    border-bottom: 1px solid #656363 !important;
+  }
 }
 
 /* Portrait phones and smaller */

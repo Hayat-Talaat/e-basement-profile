@@ -3,7 +3,8 @@ import 'src/assets/js/script.js'
 
 @Component({
   selector: 'app-bartering-accpted',
-  templateUrl: './bartering-accepted.component.html'
+  templateUrl: './bartering-accepted.component.html',
+  styleUrls: ['../bartering.css']
 })
 export class AppBarteringAccepted implements OnInit {
 

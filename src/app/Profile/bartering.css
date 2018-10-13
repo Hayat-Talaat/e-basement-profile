@@ -1,0 +1,183 @@
+body {
+    color: #737373;
+}
+/**** bartering components ****/
+/* bartering Accepted */
+
+.booking-list {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 30px;
+  }
+  .booking-list > li {
+    margin-bottom: 15px;
+    position: relative;
+  }
+  .booking-list-wishlist > li {
+    padding-top: 30px;
+    padding-right: 25px;
+  }
+  .booking-list-wishlist > li .booking-item-wishlist-title {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 30px;
+    line-height: 30px;
+    padding: 0 10px;
+    border: 1px solid #f2f2f2;
+    background: #f7f7f7;
+    border-bottom: none;
+    font-size: 12px;
+    -webkit-border-radius: 3px 3px 0 0;
+    border-radius: 3px 3px 0 0;
+  }
+  .booking-list-wishlist > li .booking-item-wishlist-title > span {
+    font-size: 9px;
+    color: #8f8f8f;
+    margin-left: 5px;
+  }
+  .booking-list-wishlist > li .booking-item-wishlist-remove {
+    position: absolute;
+    top: 30px;
+    right: 0;
+    display: block;
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    background: #e6e6e6;
+    color: #737373;
+    text-align: center;
+    -webkit-transition: 0.1s;
+    -moz-transition: 0.1s;
+    -o-transition: 0.1s;
+    -ms-transition: 0.1s;
+    transition: 0.1s;
+  }
+   a {
+    color: #72b943;
+    text-decoration: none;
+  }
+  .booking-item {
+    cursor: pointer;
+    display: block;
+    position: relative;
+    padding: 17px;
+    border: 1px solid #e6e6e6;
+    color: #737373;
+    -webkit-transition: 0.2s;
+    -moz-transition: 0.2s;
+    -o-transition: 0.2s;
+    -ms-transition: 0.2s;
+    transition: 0.2s;
+  }
+  .booking-list img {
+    width: 100%;
+    opacity: .8;
+    transition: opacity .64s ease
+  }
+  .booking-list img:hover {
+      opacity: .9;
+  }
+
+  .booking-item-price-from {
+    display: block;
+    font-size: 12px;
+    line-height: 1em;
+}
+.booking-item-price {
+    font-size: 47px;
+    color: #626262;
+    line-height: 1em;
+    display: inline-block;
+    margin-bottom: 12px;
+}
+.booking-item .btn {
+    -webkit-transition: 0.2s;
+    -moz-transition: 0.2s;
+    -o-transition: 0.2s;
+    -ms-transition: 0.2s;
+    transition: 0.2s;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+}
+.booking-item .btn-primary {
+    background: #72b943;
+    border-color: #72b943;
+}
+.booking-item-rating {
+    margin-bottom: 3px;
+    padding-bottom: 3px;
+    border-bottom: 1px solid #f7f7f7;
+    display: inline-block;
+}
+.booking-item-rating {
+    margin-bottom: 3px;
+    padding-bottom: 3px;
+    border-bottom: 1px solid #f7f7f7;
+    display: inline-block;
+}
+.booking-item-rating .booking-item-rating-stars {
+    display: inline-block;
+    margin-right: 17px;
+    margin-bottom: -5px;
+    color: #ed8323;
+}
+.icon-group > li {
+    float: left;
+    margin-right: 5px;
+}
+.booking-item-rating .booking-item-rating-stars .fa {
+    margin-right: 0;
+}
+.booking-item-rating .booking-item-rating-number {
+    margin-right: 7px;
+}
+.booking-item-rating .booking-item-rating-number > b {
+    font-size: 25px;
+    color: #72b943
+}
+* > small, small {
+    color: #818181;
+    font-size: 10px;
+    line-height: 1.4000000000000001em;
+}
+h5 {
+    font-size: 18.2px;
+    font-weight: 300;
+    font-family: 'Roboto', arial, helvetica, sans-serif;
+    margin-top: 0;
+    font-weight: 300;
+    color: #565656;
+    line-height: 1.3em;
+}
+.booking-item-title {
+    margin-bottom: 7px;
+}
+.booking-item-address {
+    line-height: 1em;
+    font-size: 13px;
+}
+.booking-item-description {
+    font-size: 13px;
+    line-height: 1.5em;
+}
+
+.booking-item:hover, .booking-item.active {
+    color: #737373;
+    border: 1px solid #72b94387;
+    -webkit-box-shadow: 0 2px 1px rgba(0, 0, 0, 0.07);
+    box-shadow: 0 2px 1px rgba(0, 0, 0, 0.07);
+}
+.btn.btn-primary:hover {
+    -webkit-border-radius: 10px;
+    border-radius: 8px;
+}
+.booking-list-wishlist > li .booking-item-wishlist-remove:hover {
+    background: #4d4d4d;
+    color: #fff;
+}
+
+.booking-item-wishlist-title  {
+    color: #737373
+}
+  

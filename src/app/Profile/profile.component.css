@@ -8,7 +8,7 @@
 
 .tab-container {
   background: #fff;
-  padding: 0;
+  padding: 0 15px;
   /* border: solid 1px #444;
 	overflow: hidden; */
   width: 100%;
@@ -101,11 +101,11 @@ li.user-profile:hover {
 }
 .tab-content.side-tabs .tab-pane {
   display: none;
-  padding: 20px;
-  overflow-y: auto;
+  /* padding: 20px;
+  overflow-y: auto; */
 }
 .tab-content.side-tabs-left {
-  margin-left: 45px;
+  margin-left: 0;
 }
 .tab-content.side-tabs-left .tab-pane {
   border-radius: 0;
@@ -184,7 +184,7 @@ hr {
     letter-spacing: 1.4px;
 }
 .nav-tabs.nav-tabs-left li a {
-  padding: 10px 20px;
+  padding: 10px 15px;
   color: #d9d9d9;
   display: block;
   font-size: 13px;
@@ -217,7 +217,7 @@ hr {
 
 /* bartering */
 .nav-tabs.nav-tabs-left .bartering-section {
-  padding: 10px 20px;
+  padding: 10px 30px;
   color: #d9d9d9;
   display: block;
   font-size: 13px;
@@ -230,7 +230,7 @@ hr {
   transition: 0.3s;
 }
 .bartering a {
-  padding: 10px 20px 10px 40px !important;
+  padding: 10px 20px 10px 30px !important;
   color:#aeaeae !important;
 }
 .bartering i {

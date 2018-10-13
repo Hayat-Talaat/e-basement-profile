@@ -3,7 +3,8 @@ import 'src/assets/js/script.js'
 
 @Component({
   selector: 'app-bartering-refused',
-  templateUrl: './bartering-refused.component.html'
+  templateUrl: './bartering-refused.component.html',
+  styleUrls: ['../bartering.css']
 })
 export class AppBarteringRefused implements OnInit {
 

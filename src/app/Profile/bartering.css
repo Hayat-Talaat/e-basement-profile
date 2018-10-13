@@ -180,4 +180,28 @@ h5 {
 .booking-item-wishlist-title  {
     color: #737373
 }
+
+/* Refused */
+.refused {
+    opacity: .9;
+}
+.refused .booking-item-wishlist-title i {
+    color: #e39286;
+}
+.refused .booking-item-rating-number b {
+    color: #d95f43;
+}
+.refused .booking-item .btn-primary {
+    background: #de7a69;
+    border-color: #de7a69;
+}
+.refused .booking-item-description {
+    color: #df8173;
+}
+.refused .booking-item:hover, .booking-item.active {
+    border: 1px solid #e3928696;
+}
+.refused .booking-item-wishlist-title {
+    color: #e08677;
+}
   

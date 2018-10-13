@@ -251,3 +251,34 @@ hr.product-hr {
     font-size: 30px;
     color: #ccc;
 }
+
+
+/* Media Query */
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+    .user-profile-progress {
+        padding: 7px
+    }
+    .user-profile-progress i {
+        font-size: 30px
+    }
+    .user-profile-progress h5 {
+        font-size: 15px
+    }
+    .user-profile-progress p {
+        font-size: 10px
+    }
+}
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+    .user-profile-progress {
+        padding: 7px;
+        margin-bottom: 5px;
+    }
+    .user-profile-progress i{
+        font-size: 30px
+    }
+    .user-profile-progress h5{font-size: 17px}
+    .user-profile-progress p {font-size: 10px}
+}

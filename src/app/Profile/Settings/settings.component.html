@@ -1,3 +1,81 @@
-<div>
-    <h1>This is " app Settings " commponent </h1>
+<div class="row ">
+
+    <div class="settings">
+        <div class="col-md-5 setting">
+            <form action="">
+
+                <!-- Personal Infomation -->
+                <h4>Personal Infomation</h4>
+                <!-- First Name -->
+                <div class="form-group form-group-icon-left">
+                    <i class="fa fa-user input-icon"></i>
+                    <label>First Name</label>
+                    <input class="form-control" value="Hayat" type="text">
+                </div>
+                <!-- Last Name -->
+                <div class="form-group form-group-icon-left">
+                    <i class="fa fa-user input-icon"></i>
+                    <label>Last Name</label>
+                    <input class="form-control" value="Talaat" type="text">
+                </div>
+                <!-- Username -->
+                <div class="form-group form-group-icon-left">
+                    <i class="fa fa-user input-icon"></i>
+                    <label>Username</label>
+                    <input class="form-control" value="Hayat-Talaat" type="text">
+                </div>
+                <!-- E-mail -->
+                <div class="form-group form-group-icon-left">
+                    <i class="fa fa-envelope input-icon"></i>
+                    <label>E-mail</label>
+                    <input class="form-control" value="hayattalaat50@gmail.com" type="text">
+                </div>
+                <!-- Phone Number -->
+                <div class="form-group form-group-icon-left">
+                    <i class="fa fa-phone input-icon"></i>
+                    <label>Phone Number</label>
+                    <input class="form-control" value="+1 202 202 2020" type="text">
+                </div>
+                <div class="gap gap-small"></div>
+
+
+                <!-- Location -->
+                <h4>Location</h4>
+                
+                <!-- Country -->
+                <div class="form-group form-group-filled">
+                    <label>Country</label>
+                    <input class="form-control" value="Egypt" type="text">
+                </div>
+                <!-- City -->
+                <div class="form-group form-group-filled">
+                    <label>City</label>
+                    <input class="form-control" value="Cairo" type="text">
+                </div>
+                
+                <hr>
+                <input type="submit" class="btn btn-primary" value="Save Changes">
+            </form>
+        </div>
+        <div class="col-md-4 col-md-offset-1 setting">
+            <h4>Change Password</h4>
+            <form>
+                <div class="form-group form-group-icon-left"><i class="fa fa-lock input-icon"></i>
+                    <label>Current Password</label>
+                    <input class="form-control" type="password">
+                </div>
+                <div class="form-group form-group-icon-left"><i class="fa fa-lock input-icon"></i>
+                    <label>New Password</label>
+                    <input class="form-control" type="password">
+                </div>
+                <div class="form-group form-group-icon-left"><i class="fa fa-lock input-icon"></i>
+                    <label>New Password Again</label>
+                    <input class="form-control" type="password">
+                </div>
+                <hr>
+                <input class="btn btn-primary" type="submit" value="Change Password">
+            </form>
+        </div>
+    </div>
+
 </div>

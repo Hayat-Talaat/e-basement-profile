@@ -1,0 +1,91 @@
+body {
+    color: #737373 !important;
+    font-family: 'Open Sans', Tahoma, Arial, helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 1.6em;
+    font-weight: 400;
+}
+.setting {
+    margin-bottom: 20px
+}
+.settings {
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-bottom: 50px;
+    color: #737373
+}
+
+h1, h2, h3, h4, h5, .text-hero {
+    font-family: 'Roboto', arial, helvetica, sans-serif;
+    margin-top: 0;
+    font-weight: 300;
+    color: #565656;
+    line-height: 1.3em;
+}
+h4 {
+    font-size: 23.66px;
+}
+.form-group {
+    position: relative;
+    
+}
+.form-group .input-icon {
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    line-height: 32px;
+    display: block;
+    top: 29px;
+    left: 1px;
+    text-align: center;
+    color: #b3b3b3;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -o-transition: 0.3s;
+    -ms-transition: 0.3s;
+    transition: 0.3s;
+    z-index: 2;
+}
+label {
+    font-weight: 400;
+    display: block;
+}
+.form-control {
+    -webkit-border-radius: 0;
+    border-radius: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    line-height: 1.6em;
+}
+.form-group.form-group-icon-left .form-control {
+    padding-left: 32px;
+}
+.form-group.form-group-filled label {
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -o-transition: 0.3s;
+    -ms-transition: 0.3s;
+    transition: 0.3s;
+}
+.form-control:active, .form-control:focus {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border: 1px solid #72b943b8
+}
+.form-group.form-group-icon-left .form-control {
+    padding-left: 32px;
+}
+
+.btn-primary {
+    background: #72b943;
+    border-color: #72b943;
+    transition: all .5s ease
+}
+.btn:hover {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+.btn-primary:hover {
+    background: #67a83c;
+    border-color: #67a83c;
+}

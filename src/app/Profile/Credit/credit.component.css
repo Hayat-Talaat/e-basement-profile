@@ -1,3 +1,6 @@
+* {
+    transition: all .3s ease
+}
 .mfp-hide {
     display: none !important;
 }
@@ -216,4 +219,106 @@ h5 {
 }
 .card-thumb .card-thumb-actions > li:last-child {
     margin-right: 0;
+}
+.card-thumb a {
+    color: #72b943;
+    text-decoration: none;
+}
+.card-thumb {
+    position: relative;
+    height: 170px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    background: #fafafa;
+    padding: 15px 20px;
+    border: 1px solid #e6e6e6;
+    display: block;
+}
+.card-thumb .card-thumb-new {
+    height: 50px;
+    line-height: 50px;
+    width: 50px;
+    text-align: center;
+    background: #438dcb;
+    color: #fff;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    font-size: 30px;
+    float: left;
+    margin-right: 10px;
+    margin-top: 45px;
+    margin-left: 45px;
+}
+.card-thumb .card-thumb-new + p {
+    margin-top: 60px;
+    font-size: 12px;
+}
+a p {
+    color: #438dcb 
+}
+
+a:hover {
+    color: #5a9335;
+    text-decoration: none;
+}
+a.card-thumb:hover p {
+    color: #3570a2;
+}
+
+.card-thumb .card-thumb-actions > li > a:hover {
+    background: #438dcb;
+    color: #fff;
+    border: #438dcb;
+    box-shadow: 0 0 0 1px #438dcb;
+    opacity: .9;
+}
+
+/* ToolTip */
+.my-tooltip {
+    position: relative;
+    /* display: inline-block;
+    border-bottom: 1px dotted black; */
+}
+.my-tooltip .my-tooltiptext {
+    visibility: hidden;
+    width: 75px;
+    background-color: #4d4d4d;
+    color: #fff;
+    text-align: center;
+    border-radius: 2px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 150%;
+    left: 50%;
+    margin-left: -39px;
+}
+.my-tooltip .my-tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #4d4d4d transparent transparent transparent;
+}
+.my-tooltip:hover .my-tooltiptext {
+    visibility: visible;
+}
+.card-thumb.card-thumb-primary {
+    border-color: #438dcb;
+}
+.card-thumb .card-thumb-primary-label {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    display: inline-block;
+    line-height: 1em;
+    padding: 4px 6px;
+    background: #438dcb;
+    color: #fff;
+    font-size: 11px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
 }

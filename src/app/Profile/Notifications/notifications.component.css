@@ -39,8 +39,12 @@
     margin: 13px 0 0 0px !important ;
   
 }
-
-/
+.alert {
+    transition: all .5s ease
+}
+.alert:hover {
+    background: #98cf74;
+}
   
  
  

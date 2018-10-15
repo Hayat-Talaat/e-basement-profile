@@ -1,6 +1,13 @@
 * {
     transition: all .3s ease
 }
+body {
+    color: #737373;
+    font-family: 'Open Sans', Tahoma, Arial, helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 1.6em;
+    font-weight: 400;
+}
 .mfp-hide {
     display: none !important;
 }
@@ -122,8 +129,11 @@ input[type="radio"], input[type="checkbox"] {
     display: block;
 }
 .btn-primary {
-    background: #ed8323;
-    border-color: #e27513;
+    background: #438dcb;
+    border-color: #438dcb;
+}
+.btn-primary:hover {
+    border-radius: 8px
 }
 .btn > .fa, .btn > .im {
     margin: 0 5px;
@@ -211,7 +221,7 @@ input[type="radio"], input[type="checkbox"] {
     line-height: 1.4000000000000001em;
 }
 h5 {
-    font-size: 18.2px;
+    font-size: 17.2px;
     font-weight: 300;
 }
 .uc, .text-uc {
@@ -321,4 +331,34 @@ a.card-thumb:hover p {
     font-size: 11px;
     -webkit-border-radius: 3px;
     border-radius: 3px;
+}
+
+@media (min-width: 768px) {
+    .modal-dialog {
+        max-width: 400px;
+        margin: 40px auto;
+    }
+    
+}
+@media (max-width: 420px) {
+    .cc-form .form-group.form-group-cc-date, .cc-form .form-group.form-group-cc-cvc{
+        width: 60%
+    }
+}
+.modal-content {
+    border-radius: 1px
+}
+.mfp-dialog {
+    padding: 0 30px 20px;
+}
+.cc-form {
+    color: #737373;
+    font-size: 13px;
+}
+#edit-card-dialog > p {
+    color: #737373;
+    font-size: 12px;
+}
+.modal-dialog {
+    margin-top: 80px
 }

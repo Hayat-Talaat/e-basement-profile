@@ -39,8 +39,17 @@
     margin: 13px 0 0 0px !important ;
   
 }
+<<<<<<< HEAD
 
 
+=======
+.alert {
+    transition: all .5s ease
+}
+.alert:hover {
+    background: #98cf74;
+}
+>>>>>>> d6ff891c43ee69d8304126648ffbcb834dccfeb4
   
  
  
